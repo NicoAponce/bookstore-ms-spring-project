@@ -1,0 +1,1 @@
+package spring.project.msdetailbookstore.entity;public class Detail {    public Book book;    public Detail(Book book) {        this.book = book;    }    public Detail() {    }    public Double getTotal() {        return book.quantity * book.price.doubleValue();    }}

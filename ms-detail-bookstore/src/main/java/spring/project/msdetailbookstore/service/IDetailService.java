@@ -1,0 +1,1 @@
+package spring.project.msdetailbookstore.service;import spring.project.msdetailbookstore.entity.Detail;import java.util.List;public interface IDetailService {    List<Detail> select();    Detail get(Long id);}
