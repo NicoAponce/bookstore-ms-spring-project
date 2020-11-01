@@ -1,0 +1,1 @@
+package springproject.msuser.service;import springproject.msuser.entity.User;import java.util.List;public interface IUserService {    List<User> select(Boolean enabled);    User get(Long id);    User insert(User user);    User update(User user, Long id);    User delete(Long id);    User find(String username);}

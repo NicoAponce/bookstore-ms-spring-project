@@ -1,0 +1,1 @@
+package springproject.serviceoauth.service;import springproject.serviceoauth.entity.User;public interface IUserService {    User findByUsername(String username);}
